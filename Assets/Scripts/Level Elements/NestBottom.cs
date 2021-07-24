@@ -1,0 +1,1 @@
+using System.Collections;using System.Collections.Generic;using UnityEngine;public class NestBottom : MonoBehaviour{    private void OnTriggerEnter2D(Collider2D collision)    {        Egg egg = collision.gameObject.GetComponent<Egg>();        if (egg != null)        {            egg.Win();        }    }}
