@@ -9851,10 +9851,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7641172725061970476}
+  - component: {fileID: 5276130669245021201}
   - component: {fileID: 7641172725061970477}
   - component: {fileID: 7641172725061970478}
   - component: {fileID: 187808842300645876}
   - component: {fileID: 1692975041394392327}
+  - component: {fileID: 4814329172439082508}
   m_Layer: 0
   m_Name: Egg
   m_TagString: Untagged
@@ -9870,7 +9872,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7641172725061970474}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -50, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7808080055082005329}
@@ -9879,6 +9881,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!70 &5276130669245021201
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7641172725061970474}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.5, y: 0.6}
+  m_Direction: 0
 --- !u!70 &7641172725061970477
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -9893,7 +9911,7 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 0.5, y: 0.75}
+  m_Size: {x: 0.4, y: 0.75}
   m_Direction: 0
 --- !u!50 &7641172725061970478
 Rigidbody2D:
@@ -9930,6 +9948,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   crackParticles: {fileID: 7775731436808627020}
   winParticles: {fileID: 1505011884949030786}
+  animatorObject: {fileID: 5369628628241459033}
+  eggCrackPrefab: {fileID: 653891822887977234, guid: 3b525aac4c7683e4e953c3d5cb1e9c39, type: 3}
+  colliders: []
 --- !u!95 &1692975041394392327
 Animator:
   serializedVersion: 3
@@ -9949,3 +9970,16 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &4814329172439082508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7641172725061970474}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10bab4ded1e1f5c4ebe93c1277b0eac7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyTime: 2
