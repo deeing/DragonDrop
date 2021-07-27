@@ -126,3 +126,4 @@ MonoBehaviour:
   eggPrefab: {fileID: 7641172725061970474, guid: fc88ece1b1ba3934a84396587ef6b70c, type: 3}
   droppingBar: {fileID: 0}
   dragOffset: {x: -0.6, y: 0.5, z: 0}
+  dropCooldown: 1.5
