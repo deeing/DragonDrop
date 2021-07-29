@@ -3,7 +3,7 @@
     "m_SelectedPackage": {
         "deviceId": "8CBX1LPWP",
         "name": "com.DefaultCompany.com.unity.template.mobile2D",
-        "processId": 22462,
+        "processId": 10490,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -54,12 +54,6 @@
             "deviceId": "8CBX1LPWP",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
             "processId": 10490,
-            "exited": false
-        },
-        {
-            "deviceId": "8CBX1LPWP",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 22462,
             "exited": false
         }
     ],
