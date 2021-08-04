@@ -49,6 +49,7 @@ GameObject:
   - component: {fileID: 7179637621709213442}
   - component: {fileID: 7179637621709213443}
   - component: {fileID: 7179637621709213440}
+  - component: {fileID: 5603531817436198437}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -97,7 +98,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 6.6805553
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -121,6 +122,19 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7179637621709213441}
   m_Enabled: 1
+--- !u!114 &5603531817436198437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7179637621709213441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30d5e854a039389469211c71ad0bc35b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UnitsForWidth: 6.5
 --- !u!1 &7179637622030627134
 GameObject:
   m_ObjectHideFlags: 0
@@ -309,7 +323,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6668935859062482857, guid: e891df18509faf745bc4312c035e72b2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -399
+      value: -399.4
       objectReference: {fileID: 0}
     - target: {fileID: 6668935859062482857, guid: e891df18509faf745bc4312c035e72b2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -531,6 +545,10 @@ PrefabInstance:
     - target: {fileID: 68096634013573721, guid: ecb512a5a8743ac4eb95cde52bfee90e, type: 3}
       propertyPath: m_RootOrder
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 68096634013573721, guid: ecb512a5a8743ac4eb95cde52bfee90e, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 68096634013573721, guid: ecb512a5a8743ac4eb95cde52bfee90e, type: 3}
       propertyPath: m_LocalPosition.x
