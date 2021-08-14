@@ -20,6 +20,9 @@ public class MovingPlatform : MonoBehaviour
     private Vector3 movingTowards;
     private Vector3 movingFrom;
 
+    private bool gameWon = false;
+
+
     private void Awake()
     {
         thisTransform = transform;
@@ -47,10 +50,26 @@ public class MovingPlatform : MonoBehaviour
             float lerpTimeInterval = timeMoved / totalMoveTime;
             thisTransform.position = Vector3.Lerp(movingFrom, movingTowards, lerpTimeInterval);
             timeMoved += moveInterval;
+            if (gameWon)
+            {
+                break;
+            }
         }
         SwitchTargets();
         timeMoved = 0f;
-        StartCoroutine(Move());
+        if (!gameWon)
+        {
+            StartCoroutine(Move());
+        }
+
     }
+
+    public void StopPlatform()
+    {
+        gameWon = true;
+    }
+
+
+
 
 }

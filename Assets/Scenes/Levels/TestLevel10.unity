@@ -2698,6 +2698,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.x
       value: 2.2
       objectReference: {fileID: 0}
+    - target: {fileID: 7179637621364288410, guid: 0a6e1655badd34d249d98d56bb90a945, type: 3}
+      propertyPath: movingNestBottom
+      value: 
+      objectReference: {fileID: 1971514484}
     - target: {fileID: 7179637621364682668, guid: 0a6e1655badd34d249d98d56bb90a945, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.19
