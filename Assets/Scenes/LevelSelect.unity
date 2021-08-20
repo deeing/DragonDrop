@@ -415,6 +415,8 @@ MonoBehaviour:
   - TestLevel9
   - TestLevel10
   - TestLevel11
+  - TestLevel12
+  - TestLevel13
   levelEntryPrefab: {fileID: 8437177656160896177, guid: cb880351bfbba497da4ce9d2c70009e0, type: 3}
 --- !u!1 &983275784
 GameObject:
