@@ -1,77 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!233 &3698742599593420444
-HingeJoint2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5404634785665517351}
-  m_Enabled: 1
-  serializedVersion: 4
-  m_EnableCollision: 0
-  m_ConnectedRigidBody: {fileID: 6252688548582491245}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_AutoConfigureConnectedAnchor: 0
-  m_Anchor: {x: 0, y: 0.55}
-  m_ConnectedAnchor: {x: 0, y: -0.53}
-  m_UseMotor: 0
-  m_Motor:
-    m_MotorSpeed: 45
-    m_MaximumMotorForce: 10000
-  m_UseLimits: 0
-  m_AngleLimits:
-    m_LowerAngle: 90
-    m_UpperAngle: 270
---- !u!233 &3698742599624780243
-HingeJoint2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5404634784276677079}
-  m_Enabled: 1
-  serializedVersion: 4
-  m_EnableCollision: 0
-  m_ConnectedRigidBody: {fileID: 6252688547938015992}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_AutoConfigureConnectedAnchor: 0
-  m_Anchor: {x: 0, y: 0.57}
-  m_ConnectedAnchor: {x: 0, y: -0.68}
-  m_UseMotor: 0
-  m_Motor:
-    m_MotorSpeed: 0
-    m_MaximumMotorForce: 10000
-  m_UseLimits: 0
-  m_AngleLimits:
-    m_LowerAngle: 90
-    m_UpperAngle: 270
---- !u!233 &3698742599995916711
-HingeJoint2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5404634784994582575}
-  m_Enabled: 1
-  serializedVersion: 4
-  m_EnableCollision: 0
-  m_ConnectedRigidBody: {fileID: 6252688548906132885}
-  m_BreakForce: Infinity
-  m_BreakTorque: Infinity
-  m_AutoConfigureConnectedAnchor: 0
-  m_Anchor: {x: 0, y: 0.53}
-  m_ConnectedAnchor: {x: 0, y: -0.52}
-  m_UseMotor: 0
-  m_Motor:
-    m_MotorSpeed: 45
-    m_MaximumMotorForce: 10000
-  m_UseLimits: 0
-  m_AngleLimits:
-    m_LowerAngle: 90
-    m_UpperAngle: 270
 --- !u!1 &3698742600012595188
 GameObject:
   m_ObjectHideFlags: 0
@@ -100,8 +28,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3698742600012595188}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -12.745716, z: 0}
-  m_LocalScale: {x: 0.52413756, y: 4.487928, z: 0.8975856}
+  m_LocalPosition: {x: 0, y: -2.904, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5404634785455046325}
   m_RootOrder: 3
@@ -219,6 +147,54 @@ HingeJoint2D:
   m_AngleLimits:
     m_LowerAngle: 0
     m_UpperAngle: 180
+--- !u!233 &3698742599624780243
+HingeJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5404634784276677079}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 6252688547938015992}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0.57}
+  m_ConnectedAnchor: {x: 0, y: -0.68}
+  m_UseMotor: 0
+  m_Motor:
+    m_MotorSpeed: 0
+    m_MaximumMotorForce: 10000
+  m_UseLimits: 0
+  m_AngleLimits:
+    m_LowerAngle: 90
+    m_UpperAngle: 270
+--- !u!233 &3698742599995916711
+HingeJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5404634784994582575}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 6252688548906132885}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0.53}
+  m_ConnectedAnchor: {x: 0, y: -0.52}
+  m_UseMotor: 0
+  m_Motor:
+    m_MotorSpeed: 45
+    m_MaximumMotorForce: 10000
+  m_UseLimits: 0
+  m_AngleLimits:
+    m_LowerAngle: 90
+    m_UpperAngle: 270
 --- !u!1 &5404634785455046330
 GameObject:
   m_ObjectHideFlags: 0
@@ -247,7 +223,7 @@ Transform:
   m_GameObject: {fileID: 5404634785455046330}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 1.57, z: 0}
-  m_LocalScale: {x: 1.9078962, y: 0.22282, z: 1.1141}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5404634784276677080}
   - {fileID: 5404634784994582560}
@@ -355,6 +331,30 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 3
+--- !u!233 &3698742599593420444
+HingeJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5404634785665517351}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 6252688548582491245}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0.55}
+  m_ConnectedAnchor: {x: 0, y: -0.53}
+  m_UseMotor: 0
+  m_Motor:
+    m_MotorSpeed: 45
+    m_MaximumMotorForce: 10000
+  m_UseLimits: 0
+  m_AngleLimits:
+    m_LowerAngle: 90
+    m_UpperAngle: 270
 --- !u!1001 &3698742599593420434
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -380,15 +380,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8670991138688000442, guid: d4ad35af8f48f4244957ee4be77af3ae, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.104827516
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 8670991138688000442, guid: d4ad35af8f48f4244957ee4be77af3ae, type: 3}
       propertyPath: m_LocalScale.y
-      value: 3.1415496
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8670991138688000442, guid: d4ad35af8f48f4244957ee4be77af3ae, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.8975856
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8670991138688000442, guid: d4ad35af8f48f4244957ee4be77af3ae, type: 3}
       propertyPath: m_LocalPosition.x
@@ -396,7 +396,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8670991138688000442, guid: d4ad35af8f48f4244957ee4be77af3ae, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -8.760435
+      value: -2.061
       objectReference: {fileID: 0}
     - target: {fileID: 8670991138688000442, guid: d4ad35af8f48f4244957ee4be77af3ae, type: 3}
       propertyPath: m_LocalPosition.z
@@ -472,15 +472,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8670991138688000442, guid: d4ad35af8f48f4244957ee4be77af3ae, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.104827516
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 8670991138688000442, guid: d4ad35af8f48f4244957ee4be77af3ae, type: 3}
       propertyPath: m_LocalScale.y
-      value: 3.1415496
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8670991138688000442, guid: d4ad35af8f48f4244957ee4be77af3ae, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.8975856
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8670991138688000442, guid: d4ad35af8f48f4244957ee4be77af3ae, type: 3}
       propertyPath: m_LocalPosition.x
@@ -488,7 +488,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8670991138688000442, guid: d4ad35af8f48f4244957ee4be77af3ae, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.5022
+      value: -1.463
       objectReference: {fileID: 0}
     - target: {fileID: 8670991138688000442, guid: d4ad35af8f48f4244957ee4be77af3ae, type: 3}
       propertyPath: m_LocalPosition.z
@@ -572,15 +572,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8670991138688000442, guid: d4ad35af8f48f4244957ee4be77af3ae, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.104827516
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 8670991138688000442, guid: d4ad35af8f48f4244957ee4be77af3ae, type: 3}
       propertyPath: m_LocalScale.y
-      value: 3.1415496
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 8670991138688000442, guid: d4ad35af8f48f4244957ee4be77af3ae, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.8975856
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8670991138688000442, guid: d4ad35af8f48f4244957ee4be77af3ae, type: 3}
       propertyPath: m_LocalPosition.x
@@ -588,7 +588,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8670991138688000442, guid: d4ad35af8f48f4244957ee4be77af3ae, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.2888436
+      value: -0.85099995
       objectReference: {fileID: 0}
     - target: {fileID: 8670991138688000442, guid: d4ad35af8f48f4244957ee4be77af3ae, type: 3}
       propertyPath: m_LocalPosition.z

@@ -352,25 +352,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2145716357125594489, guid: a087ab0b8045f854bb5b5da3fc005815, type: 3}
   m_PrefabInstance: {fileID: 1667447950}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1971514481 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7179637621327865975, guid: 0a6e1655badd34d249d98d56bb90a945, type: 3}
-  m_PrefabInstance: {fileID: 7179637621194509397}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1971514484
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1971514481}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb4d40b6a1c40c54cbc19d17533adf25, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetPosition: {x: -4.5, y: -1.3, z: 0}
-  totalMoveTime: 2
 --- !u!1001 &3698742599878603141
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -482,7 +463,7 @@ PrefabInstance:
     - target: {fileID: 7179637621364288410, guid: 0a6e1655badd34d249d98d56bb90a945, type: 3}
       propertyPath: movingNestBottom
       value: 
-      objectReference: {fileID: 1971514484}
+      objectReference: {fileID: 0}
     - target: {fileID: 7179637621364682668, guid: 0a6e1655badd34d249d98d56bb90a945, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.19
