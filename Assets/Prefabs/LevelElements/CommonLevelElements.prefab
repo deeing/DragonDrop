@@ -1673,6 +1673,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -25
       objectReference: {fileID: 0}
+    - target: {fileID: 5428581141746672783, guid: e5339449b7d0e4d0e8b6566432b72261, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 5876015973797622191, guid: e5339449b7d0e4d0e8b6566432b72261, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 5
@@ -1705,6 +1709,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 4002214559864573481, guid: e5339449b7d0e4d0e8b6566432b72261, type: 3}
   m_PrefabInstance: {fileID: 6064530728271497144}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2602258413873654363 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8085261699464408547, guid: e5339449b7d0e4d0e8b6566432b72261, type: 3}
+  m_PrefabInstance: {fileID: 6064530728271497144}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23c0a267ace93f04bafca78f3fff47a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &6969533335645491498
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1884,6 +1899,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1194127461106565614, guid: b7abd9ce5d3fe4541b913b32fc48e09f, type: 3}
+      propertyPath: eggCount
+      value: 
+      objectReference: {fileID: 2602258413873654363}
     - target: {fileID: 1194127461106565614, guid: b7abd9ce5d3fe4541b913b32fc48e09f, type: 3}
       propertyPath: droppingBar
       value: 
