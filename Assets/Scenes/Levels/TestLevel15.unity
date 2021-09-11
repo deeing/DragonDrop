@@ -407,6 +407,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WreckingBall
       objectReference: {fileID: 0}
+    - target: {fileID: 5404634785455046330, guid: 4ea0446081244854a999dce34bb2d11c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4ea0446081244854a999dce34bb2d11c, type: 3}
 --- !u!1001 &7179637621194509397
@@ -502,7 +506,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7179637621709213443, guid: 0a6e1655badd34d249d98d56bb90a945, type: 3}
       propertyPath: orthographic size
-      value: 6.6805553
+      value: 6.686198
       objectReference: {fileID: 0}
     - target: {fileID: 7179637622030627129, guid: 0a6e1655badd34d249d98d56bb90a945, type: 3}
       propertyPath: m_RootOrder
