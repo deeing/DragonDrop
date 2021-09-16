@@ -1131,5 +1131,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 23c0a267ace93f04bafca78f3fff47a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultNumEggs: 10
+  dailyEggMin: 10
   numEggDisplay: {fileID: 6319549231421854665}
+  testingEggOverride: 1
+  numEggsRechargedPerHour: 1

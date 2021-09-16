@@ -442,7 +442,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2602258413873654363, guid: 0a6e1655badd34d249d98d56bb90a945, type: 3}
       propertyPath: testingEggOverride
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5603531817436198437, guid: 0a6e1655badd34d249d98d56bb90a945, type: 3}
       propertyPath: m_Enabled
