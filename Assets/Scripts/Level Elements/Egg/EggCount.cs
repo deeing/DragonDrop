@@ -15,6 +15,9 @@ public class EggCount : MonoBehaviour
     [SerializeField]
     [Tooltip("Number of eggs recharged for one hour of not checking in")]
     private int numEggsRechargedPerHour = 1;
+    [SerializeField]
+    [Tooltip("Popup that should display when the user is out of eggs")]
+    private GameObject outOfEggsPopup;
 
 
     private int numEggs;
@@ -124,5 +127,10 @@ public class EggCount : MonoBehaviour
     private void UpdateEggDisplay()
     {
         numEggDisplay.text = "x" + numEggs;
+    }
+
+    public void DisplayOutOfEggs()
+    {
+        outOfEggsPopup.SetActive(true);
     }
 }
