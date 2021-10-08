@@ -518,11 +518,23 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2769937192404023050, guid: 0a6e1655badd34d249d98d56bb90a945, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2769937192404023050, guid: 0a6e1655badd34d249d98d56bb90a945, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1970596315}
     - target: {fileID: 2769937192404023050, guid: 0a6e1655badd34d249d98d56bb90a945, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2769937192404023050, guid: 0a6e1655badd34d249d98d56bb90a945, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2769937192404023050, guid: 0a6e1655badd34d249d98d56bb90a945, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2769937192404023050, guid: 0a6e1655badd34d249d98d56bb90a945, type: 3}
@@ -530,12 +542,24 @@ PrefabInstance:
       value: PlayRewardedAd
       objectReference: {fileID: 0}
     - target: {fileID: 2769937192404023050, guid: 0a6e1655badd34d249d98d56bb90a945, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2769937192404023050, guid: 0a6e1655badd34d249d98d56bb90a945, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: AdsManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2769937192404023050, guid: 0a6e1655badd34d249d98d56bb90a945, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
       value: AdsManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2769937192404023050, guid: 0a6e1655badd34d249d98d56bb90a945, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2769937192404023050, guid: 0a6e1655badd34d249d98d56bb90a945, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3525064009658084264, guid: 0a6e1655badd34d249d98d56bb90a945, type: 3}
       propertyPath: m_AnchorMax.y

@@ -17,8 +17,8 @@ public class AdsManager : MonoBehaviour, IUnityAdsListener
     // Start is called before the first frame update
     void Start()
     {
-        Advertisement.Initialize(gameId);
         Advertisement.AddListener(this);
+        Advertisement.Initialize(gameId);
     }
 
     // Rewarded Ad
@@ -51,7 +51,18 @@ public class AdsManager : MonoBehaviour, IUnityAdsListener
 
     public void OnUnityAdsDidFinish(string placementId, ShowResult showResult)
     {
+        Debug.Log("Ads should have finished");
         //should give users the reward here. Placing debug message for now.
+        if (placementId == rewardedVideo)
+        {
+            Debug.Log("placementID is " + rewardedVideo);
+        }
+
+        if (showResult == ShowResult.Finished)
+        {
+            Debug.Log("show results did finish");
+        }
+
         if (placementId == rewardedVideo && showResult == ShowResult.Finished)
         {
             Debug.Log("PLAYER SHOULD BE REWARDED!");
