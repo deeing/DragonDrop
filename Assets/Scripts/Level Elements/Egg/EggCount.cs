@@ -124,7 +124,19 @@ public class EggCount : MonoBehaviour
         }
     }
 
-    private void UpdateEggDisplay()
+    //rewarded Ad adds eggs
+    public void AddEgg(int num)
+    {
+        numEggs+= num;
+        UpdateEggDisplay();
+        // only update the number of eggs if we aren't in override mode
+        if (!testingEggOverride)
+        {
+            SetUserEggs(numEggs);
+        }
+    }
+
+        private void UpdateEggDisplay()
     {
         numEggDisplay.text = "x" + numEggs;
     }
@@ -133,4 +145,10 @@ public class EggCount : MonoBehaviour
     {
         outOfEggsPopup.SetActive(true);
     }
+
+    public void HideOutOfEggs()
+    {
+        outOfEggsPopup.SetActive(false);
+    }
+
 }

@@ -5,6 +5,9 @@ using UnityEngine.Advertisements;
 
 public class AdsManager : MonoBehaviour, IUnityAdsListener
 {
+    public EggCount eggCount;
+    public int numRewardEggs=1;
+
     // create variables to hold iOS or Android gameIds/rewardedVideo Ids
 #if UNITY_IOS
     string gameId = "4393808";
@@ -66,6 +69,8 @@ public class AdsManager : MonoBehaviour, IUnityAdsListener
         if (placementId == rewardedVideo && showResult == ShowResult.Finished)
         {
             Debug.Log("PLAYER SHOULD BE REWARDED!");
+            eggCount.AddEgg(numRewardEggs);
+            eggCount.HideOutOfEggs();
         }
     }
 

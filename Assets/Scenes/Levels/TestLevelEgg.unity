@@ -282,6 +282,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2145716357125594489, guid: a087ab0b8045f854bb5b5da3fc005815, type: 3}
   m_PrefabInstance: {fileID: 840896366}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1287323272 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2602258413873654363, guid: 0a6e1655badd34d249d98d56bb90a945, type: 3}
+  m_PrefabInstance: {fileID: 7179637621194509397}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23c0a267ace93f04bafca78f3fff47a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1667447950
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -369,6 +380,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1916b81b1e08951468b5bb157045d82b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  eggCount: {fileID: 1287323272}
+  numRewardEggs: 1
 --- !u!1001 &3698742599878603141
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -643,7 +656,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7179637621709213443, guid: 0a6e1655badd34d249d98d56bb90a945, type: 3}
       propertyPath: orthographic size
-      value: 5.2458506
+      value: 5.2804127
       objectReference: {fileID: 0}
     - target: {fileID: 7179637622030627129, guid: 0a6e1655badd34d249d98d56bb90a945, type: 3}
       propertyPath: m_RootOrder
