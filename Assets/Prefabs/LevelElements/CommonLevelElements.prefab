@@ -1148,7 +1148,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7179637621709213441}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a27e46d7c4c0624896ca0cf5008eb22, type: 3}
   m_Name: 
@@ -1806,7 +1806,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8085261699464408547, guid: e5339449b7d0e4d0e8b6566432b72261, type: 3}
       propertyPath: testingEggOverride
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8239689163993133234, guid: e5339449b7d0e4d0e8b6566432b72261, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
